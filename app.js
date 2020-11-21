@@ -1,6 +1,5 @@
 const moult = require('moult');
 const process = require('process');
-const cool = require('cool-ascii-faces');
 var app = moult.app('leeshmurd');
 
 app.use(moult.static({ host :'dists'}))
@@ -82,8 +81,8 @@ app.get('/mp3/latest',(req,res,rep)=>{
     }
     res.json(song);
 })
-app.get('/cool',(res,req,rep)=>{
+/*app.get('/cool',(res,req,rep)=>{
     res.send(cool())
-})
+})*/
 var PORT = process.env.PORT;
 app.listen(PORT);
