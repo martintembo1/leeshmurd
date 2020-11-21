@@ -1,0 +1,21 @@
+{
+  "name": "leeshmurd",
+  "version": "2.3.7",
+  "description": "This is a music website for a popularly Zambian artist known as Lee$hmurd",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "art",
+    "artist",
+    "music"
+  ],
+  "author": "martintembo1",
+  "license": "ISC",
+  "dependencies": {
+    "formidable": "^1.2.2",
+    "moult": "^1.0.2"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,11 @@
+{
+    "states":{"profile":"trial"},
+    "is":"div",
+    "class":"bg-orange",
+    "nodes":[
+        "profile setup"
+        ],
+    "events":{
+        
+    }
+}

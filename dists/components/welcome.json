@@ -1,0 +1,162 @@
+{
+    "states": {"bgColor":"bg-orange-2","cColor":"c-white"},
+    "is": "div",
+    "class":"c-white gfont2",
+    "nodes":[
+        {
+            "is":"div",
+            "class":"p10 w100 flx-r @bgColor",
+            "nodes":[
+                {
+                    "is":"i",
+                    "class":"c-white icofont-question-circle",
+                    "nodes":[""],
+                    "events":{
+                        
+                    }
+                },
+                {
+                    "is":"select",
+                    "class":"c-white rd @bgColor",
+                    "nodes":[
+                        {
+                            "is":"option",
+                            "nodes":["en-english"],
+                            "attr":[{"value":"english"}]
+                        },
+                        {
+                            "is":"option",
+                            "nodes":["ny-nyanja"],
+                            "attr":[{"value":"nyanja"}]
+                        }
+                        ]
+                }
+                ]
+        },
+        {
+            "is":"canvas",
+            "class":"",
+            "nodes":[],
+            "attr":[
+                {
+                    "width":"200px",
+                    "height":"200px",
+                    "id":"myTitle"
+                }
+                ],
+            "events":{
+                
+            }
+        },
+        {
+            "is":"div",
+            "class":"",
+            "nodes":[
+                {
+                    "is":"form",
+                    "class":"w80 ma sh-2 rd p10 flx-c",
+                    "nodes":[
+                        
+                                                {
+                            "is":"label",
+                            "class":"c-grey",
+                            "nodes":[
+                                {
+                                    "is":"i",
+                                    "class":"icofont-user"
+                                    
+                                },
+                                "Username"
+                                ],
+                            "attr":[
+                                {
+                                    "for":"phone"
+                                }
+                                ]
+                        },
+                              
+                        {
+                        
+                            "is":"input",
+                            "class":"bd-grey p10 c-grey m2 rd",
+                            "attr":[
+                                {
+                                    "type":"username",
+                                    "id":"",
+                                    "placeholder":"Username",
+                                    "name":"username"
+                                }
+                                ]
+                        },
+                        {
+                            "is":"label",
+                            "class":"c-grey",
+                            "nodes":[
+                                {
+                                    "is":"i",
+                                    "class":"icofont-phone"
+                                    
+                                },
+                                "Phone Number"
+                                ],
+                            "attr":[
+                                {
+                                    "for":"phone"
+                                }
+                                ]
+                        },
+                                                {
+                            "is":"input",
+                            "class":"bd-grey c-grey m2 rd p10",
+                            "attr":[
+                                {
+                                    "type":"number",
+                                    "id":"phone",
+                                    "placeholder":"Phone",
+                                    "name":"phone"
+                                }
+                                ]
+                        },
+                                                                                                {
+                            "is":"label",
+                            "class":"c-grey",
+                            "nodes":[
+                                {
+                                    "is":"i",
+                                    "class":"icofont-ui-lock"
+                                    
+                                },
+                                " Password"
+                                ],
+                            "attr":[
+                                {
+                                    "for":"password"
+                                }
+                                ]
+                        },
+                              
+                                                                        {
+                            "is":"input",
+                            "class":"bd-grey p10 c-grey m2 rd",
+                            "attr":[
+                                {
+                                    "type":"password",
+                                    "id":"password",
+                                    "placeholder":"Username",
+                                    "name":"phone"
+                                }
+                                ]
+                        },
+                        {
+                            "is":"button", 
+                            "class":"m2 p10 rd #bgColor",
+                            "nodes":[
+                                "Log In"
+                                ]
+                        }
+                        ]
+                }
+                ]
+        }
+        ]
+}

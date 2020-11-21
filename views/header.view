@@ -1,0 +1,39 @@
+<div class="gfont2 w100 sh bg-black p15 flx-r fxd z15" id="headerBar">
+    <div class="burger-white" onclick="asideBarA();">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class=" w80 tr">
+        <span class=" gfont c-white">Leeshmurd <span class="c-grey"> <span class="c-alert">.</span>Arts</span></span>
+        
+    </div>
+    
+</div>
+
+<div id="asidebar" class="mobile-aside  w80 h100 bg-black ">
+        <div>
+            <span>
+                <span class="abs pt15 flx-r gfont w100 op6">
+                    <span class="bg-green c-black p10">Events</span>
+                    <span class="bg-yellow c-black p10">Next</span>
+                    <span class="bg-black p10">Videos</span>
+                </span>
+                <img src="%{eventImage}%" id="eventImage" class="w100"/>
+            </span>
+            <ol class="list">
+                <li></li>
+                <li data-link="/content"><i class="icofont-newspaper"></i> Contents</li>
+                <li data-link="/stream"><i class="icofont-music"></i> Music Streaming</li>
+                <li data-link="/charts"><i class="icofont-arrow-up"></i> Top Charts</li>
+                <li data-link="/fans"><i class="icofont-comment"></i> Fan's Platform</li>
+                <li data-link="/premium" class="bg-yellow c-black gfont flx-rv"><i class="icofont-shopping-cart"></i>Premium</li>
+            </ol>
+        </div>
+        <div class="bio tc flx-r m10 c-white">
+            <i class="icofont-twitter"></i>
+            <i class="icofont-facebook"></i>
+            <i class="icofont-instagram"></i>
+            
+        </div>
+</div>

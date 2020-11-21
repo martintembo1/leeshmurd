@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<link rel="stylesheet" href="/static/css/main.css"/>
+<link rel="stylesheet" href="/static/css/style.css"/>
+<link rel="stylesheet" href="/static/fonts/icofont.css"/>
+
+</head>
+<body>
+<div id="headerUI"></div>
+<div id="root"> </div>
+<div id="popUp"></div>
+<div id="freeUI"></div>
+<script src="/static/js/request.js"></script>
+<script src='/static/main.js'></script>
+<script src='/static/js/controllers.js'></script>
+</body>
+</html>

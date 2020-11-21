@@ -1,0 +1,27 @@
+
+<div class="bg-image w100 h60">
+    <div class="player bg-black op8 abs t-10 w100">
+        <h3 class="gfont2 c-white p10 flx-r " data-url="%{url}%">
+            <span>%{title}% <time class="pt8">%{release}%</time></span> <button class="bg-black" id="latestPly" onclick="latest(this);"><i class="icofont-play-alt-2 c-white pt20"></i></button></h3>
+        <div class="progress w-trans w0 "></div>
+        
+    </div>
+</div>
+<div class="content bg-dark pd5 ">
+    <h4 class="flx-r p10"><span class="c-yellow gfont pt15">Streaming</span><i class="icofont-music pt15 c-white"></i></h4>
+    <ol>
+        <li class="sh p10 p-trans flx-r c-white bb-white">
+            <span>Both Ways</span>
+            <span>
+                2:30
+            </span>
+        </li>
+          <li class="sh p10 flx-r c-white bb-white">
+            <span>Hit the Gas</span>
+            <span>
+                4:21
+            </span>
+        </li>
+    </ol>
+</div>
+
